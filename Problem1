@@ -1,0 +1,15 @@
+import numpy as np
+
+X = np.random.random((5,5))
+print (X)
+
+mn = X.mean()
+print ("Mean: ", y)
+
+std = X.std()
+print (' ')
+print("Standard deviation: ", a)
+
+Z = (X - mn)/std
+print (' ')
+print ("Normalized X:  ", Z)
