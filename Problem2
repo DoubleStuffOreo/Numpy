@@ -33,8 +33,6 @@ J = j*(j)
 
 A = np.array([[A],[B], [C], [D], [E], [F], [G], [H], [I], [J]]).astype(int)
 print(A)
-print (' ')
 
 x = A%3==0
-print (' ')
-print("Values divisible by 3: ", x)
+print("\n Numbers divisible by 3: ", x)
